@@ -1,5 +1,5 @@
 ---
-title: VPN 사용법 - macOS
+title: VPN 접속 방법 - macOS
 weight: 4
 ---
 

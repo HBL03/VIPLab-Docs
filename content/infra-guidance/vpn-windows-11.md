@@ -1,5 +1,5 @@
 ---
-title: VPN 사용법 - Windows 11
+title: VPN 접속 방법 - Windows 11
 weight: 3
 ---
 

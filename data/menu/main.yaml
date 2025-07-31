@@ -21,11 +21,11 @@ main:
         ref: "/infra-guidance/nas-usage"
       - name: VPN 개요
         ref: "/infra-guidance/vpn-overview"
-      - name: VPN 사용법 - Windows 11
+      - name: VPN 접속 방법 - Windows 11
         ref: "/infra-guidance/vpn-windows-11"
-      - name: VPN 사용법 - macOS
+      - name: VPN 접속 방법 - macOS
         ref: "/infra-guidance/vpn-macos"
-      - name: VPN 사용법 - Android
+      - name: VPN 접속 방법 - Android
         ref: "/infra-guidance/vpn-android"
   - name: Study Record
     ref: "/study-record"

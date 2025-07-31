@@ -1,5 +1,5 @@
 ---
-title: VPN 사용법 - Android
+title: VPN 접속 방법 - Android
 weight: 5
 ---
 
