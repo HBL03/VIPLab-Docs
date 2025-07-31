@@ -1,6 +1,6 @@
 ---
 header:
   - name: GitHub
-    ref: https://github.com/HBL03
+    ref: https://github.com/HBL03/VIPLab-Docs
     icon: gdoc_github
     external: true
