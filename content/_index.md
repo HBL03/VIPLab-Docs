@@ -5,6 +5,8 @@ geekdocAlign: center
 geekdocAnchor: false
 ---
 
+{{< figure src="VIPLab-light.png" alt="VIPLab 로고" width="200px" >}}
+
 이 사이트는 **VIPLab**의 NAS와 VPN 등 인프라 정보, 스터디 내용 그리고 다양한 정보를 정리하기 위한 공간입니다.
 
 {{< button size="large" relref="usage/_index" >}}Getting Started{{< /button >}}
