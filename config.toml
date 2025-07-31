@@ -1,4 +1,4 @@
-baseURL = "https://viplab-docs.github.io/"
+baseURL = "https://hbl03.github.io/viplab-docs"
 title = "VIPLab Docs"
 theme = "hugo-geekdoc"
 
