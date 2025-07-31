@@ -3,7 +3,7 @@
 /* Font Definitions */
 @font-face {
     font-family: 'Paperlogy';
-    src: url('/font/Paperlogy-8ExtraBold.woff2') format('woff2');
+    src: url('../font/Paperlogy-8ExtraBold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -11,7 +11,7 @@
   
 @font-face {
   font-family: 'SpoqaHanSansNeo';
-  src: url('/font/SpoqaHanSansNeo-Regular.woff2') format('woff2');
+  src: url('../font/SpoqaHanSansNeo-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 
 @font-face {
     font-family: 'D2Coding';
-    src: url('/font/D2Coding.woff2') format('woff2');
+    src: url('../font/D2Coding.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

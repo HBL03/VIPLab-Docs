@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/infra-guidance/nas-usage/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/infra-guidance/nas-usage/</loc>
   </url><url>
-    <loc>http://localhost:1313/usage/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/usage/</loc>
   </url><url>
-    <loc>http://localhost:1313/in-lab-guidance/network-topology/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/in-lab-guidance/network-topology/</loc>
   </url><url>
-    <loc>http://localhost:1313/usage/getting-started/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/usage/getting-started/</loc>
   </url><url>
-    <loc>http://localhost:1313/in-lab-guidance/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/in-lab-guidance/</loc>
   </url><url>
-    <loc>http://localhost:1313/infra-guidance/vpn-overview/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/infra-guidance/vpn-overview/</loc>
   </url><url>
-    <loc>http://localhost:1313/in-lab-guidance/property-guide/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/in-lab-guidance/property-guide/</loc>
   </url><url>
-    <loc>http://localhost:1313/infra-guidance/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/infra-guidance/</loc>
   </url><url>
-    <loc>http://localhost:1313/infra-guidance/vpn-windows-11/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/infra-guidance/vpn-windows-11/</loc>
   </url><url>
-    <loc>http://localhost:1313/in-lab-guidance/lab-member-info/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/in-lab-guidance/lab-member-info/</loc>
   </url><url>
-    <loc>http://localhost:1313/study-record/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/study-record/</loc>
   </url><url>
-    <loc>http://localhost:1313/infra-guidance/vpn-macos/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/infra-guidance/vpn-macos/</loc>
   </url><url>
-    <loc>http://localhost:1313/infra-guidance/vpn-android/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/infra-guidance/vpn-android/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/VIPLab-Docs/</loc>
   </url>
 </urlset>
