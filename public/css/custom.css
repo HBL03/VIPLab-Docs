@@ -1,0 +1,193 @@
+/* VIPLab-Docs Custom CSS - Following Geekdocs Official Guidelines */
+
+/* Font Definitions */
+@font-face {
+    font-family: 'Paperlogy';
+    src: url('/font/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  src: url('/font/SpoqaHanSansNeo-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'D2Coding';
+    src: url('/font/D2Coding.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+:root {
+    --code-max-height: 60rem;
+
+    --header-font-family: 'Paperlogy';
+    --body-font-family: 'SpoqaHanSansNeo';
+    --code-font-family: 'D2Coding';
+}
+
+/*-----------------------------------------*/
+/* Light mode theming                     */
+/*-----------------------------------------*/
+:root,
+:root[color-theme="light"] {
+  /* Header */
+  --header-background: #00537f;
+  --header-font-color: #ffffff;
+
+  /* Body */
+  --body-background: #fffff;
+  --body-font-color: #084261;
+
+  /* Mark / Highlight */
+  --mark-color: #00a3b9;
+
+  /* Button */
+  --button-background: #00537f;
+  --button-border-color: #084261;
+
+  /* Links */
+  --link-color: #00a3b9;
+  --link-color-visited: #00537f;
+
+  /* Code blocks */
+  --code-background: #e6f2f7;
+  --code-accent-color: #00a3b9;
+  --code-accent-color-lite: #ffffff;
+  --code-font-color: #084261;
+
+  /* Code-copy */
+  --code-copy-background: #e6f2f7;
+  --code-copy-font-color: #084261;
+  --code-copy-border-color: #00537f;
+  --code-copy-success-color: #00a3b9;
+
+  /* Accent panels */
+  --accent-color: #e6f2f7;
+  --accent-color-lite: rgb(247,251,255);
+
+  /* Control icons (search, toggle 등) */
+  --control-icons: #00537f;
+
+  /* Footer */
+  --footer-background: #00537f;
+  --footer-font-color: #ffffff;
+  --footer-link-color: #00a3b9;
+  --footer-link-color-visited: #00a3b9;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* 동일하게 Light 모드 우선 적용 */
+    --header-background: #00537f;
+    --header-font-color: #ffffff;
+    --body-background: #ffffff;
+    --body-font-color: #084261;
+    --mark-color: #00a3b9;
+    --button-background: #00537f;
+    --button-border-color: #084261;
+    --link-color: #00a3b9;
+    --link-color-visited: #00537f;
+    --code-background: #e6f2f7;
+    --code-accent-color: #00a3b9;
+    --code-accent-color-lite: #ffffff;
+    --code-font-color: #084261;
+    --code-copy-background: #e6f2f7;
+    --code-copy-font-color: #084261;
+    --code-copy-border-color: #00537f;
+    --code-copy-success-color: #00a3b9;
+    --accent-color: #e6f2f7;
+    --accent-color-lite: rgb(247,251,255);
+    --control-icons: #00537f;
+    --footer-background: #00537f;
+    --footer-font-color: #ffffff;
+    --footer-link-color: #00a3b9;
+    --footer-link-color-visited: #00a3b9;
+  }
+}
+
+/*-----------------------------------------*/
+/* Dark mode theming                      */
+/*-----------------------------------------*/
+:root[color-theme="dark"] {
+  /* Header */
+  --header-background: #084261;
+  --header-font-color: #e6f2f7;
+
+  /* Body */
+  --body-background: #00537f;
+  --body-font-color: #e6f2f7;
+
+  /* Mark / Highlight */
+  --mark-color: #00a3b9;
+
+  /* Button */
+  --button-background: #00a3b9;
+  --button-border-color: #ffffff;
+
+  /* Links */
+  --link-color: #00a3b9;
+  --link-color-visited: #ffffff;
+
+  /* Code blocks */
+  --code-background: #00537f;
+  --code-accent-color: #084261;
+  --code-accent-color-lite: #084261;
+  --code-font-color: #e6f2f7;
+
+  /* Code-copy */
+  --code-copy-background: #00537f;
+  --code-copy-font-color: #e6f2f7;
+  --code-copy-border-color: #00a3b9;
+  --code-copy-success-color: #ffffff;
+
+  /* Accent panels */
+  --accent-color: #084261;
+  --accent-color-lite: rgb(0,91,142);
+
+  /* Control icons */
+  --control-icons: #e6f2f7;
+
+  /* Footer */
+  --footer-background: #084261;
+  --footer-font-color: #e6f2f7;
+  --footer-link-color: #00a3b9;
+  --footer-link-color-visited: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* 시스템 다크 모드 우선 적용 */
+    --header-background: #084261;
+    --header-font-color: #e6f2f7;
+    --body-background: #00537f;
+    --body-font-color: #e6f2f7;
+    --mark-color: #00a3b9;
+    --button-background: #00a3b9;
+    --button-border-color: #ffffff;
+    --link-color: #00a3b9;
+    --link-color-visited: #ffffff;
+    --code-background: #00537f;
+    --code-accent-color: #084261;
+    --code-accent-color-lite: #084261;
+    --code-font-color: #e6f2f7;
+    --code-copy-background: #00537f;
+    --code-copy-font-color: #e6f2f7;
+    --code-copy-border-color: #00a3b9;
+    --code-copy-success-color: #ffffff;
+    --accent-color: #084261;
+    --accent-color-lite: rgb(0,83,127);
+    --control-icons: #e6f2f7;
+    --footer-background: #084261;
+    --footer-font-color: #e6f2f7;
+    --footer-link-color: #00a3b9;
+    --footer-link-color-visited: #084261;
+  }
+}

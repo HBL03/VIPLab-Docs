@@ -1,0 +1,34 @@
+---
+main:
+  - name: Usage
+    ref: "/usage"
+    sub:
+      - name: 문서 안내
+        ref: "/usage/getting-started"
+  - name: In-laboratory Guidance
+    ref: "/in-lab-guidance"
+    sub:
+      - name: 네트워크 토폴로지
+        ref: "/in-lab-guidance/network-topology"
+      - name: 물품 안내
+        ref: "/in-lab-guidance/property-guide"
+      - name: 연구실 구성원 정보
+        ref: "/in-lab-guidance/lab-member-info"
+  - name: Infra Guidance
+    ref: "/infra-guidance"
+    sub:
+      - name: NAS 이용 안내
+        ref: "/infra-guidance/nas-usage"
+      - name: VPN 개요
+        ref: "/infra-guidance/vpn-overview"
+      - name: VPN 사용법 - Windows 11
+        ref: "/infra-guidance/vpn-windows-11"
+      - name: VPN 사용법 - macOS
+        ref: "/infra-guidance/vpn-macos"
+      - name: VPN 사용법 - Android
+        ref: "/infra-guidance/vpn-android"
+  - name: Study Record
+    ref: "/study-record"
+    sub:
+      - name: 2025년 8월 5일 Study
+        ref: "/study-record/2025-08-05-study"

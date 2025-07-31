@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to the VIPLab Docs! on VIPLab Docs</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome to the VIPLab Docs! on VIPLab Docs</description>
+    <generator>Hugo</generator>
+    <language>ko-KR</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NAS 이용 안내</title>
+      <link>http://localhost:1313/infra-guidance/nas-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/infra-guidance/nas-usage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>네트워크 토폴로지</title>
+      <link>http://localhost:1313/in-lab-guidance/network-topology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/in-lab-guidance/network-topology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>문서 안내</title>
+      <link>http://localhost:1313/usage/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/usage/getting-started/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>물품 안내</title>
+      <link>http://localhost:1313/in-lab-guidance/property-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/in-lab-guidance/property-guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VPN 사용법 - Windows 11</title>
+      <link>http://localhost:1313/infra-guidance/vpn-windows-11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/infra-guidance/vpn-windows-11/</guid>
+      <description>&lt;p&gt;이 문서는 Windows 11에서 VIPLab VPN을 사용하는 방법을 안내합니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a&#xA;  class=&#34;gdoc-markdown__link&#34;&#xA;  href=&#34;https://www.wireguard.com/install/&#34;&#xA;&gt;https://www.wireguard.com/install/&lt;/a&gt;에서 Wireguard를 설치한 다음, 설정 파일을 추가하여 VPN을 활성화하실 수 있습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>연구실 구성원 정보</title>
+      <link>http://localhost:1313/in-lab-guidance/lab-member-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/in-lab-guidance/lab-member-info/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VPN 사용법 - Android</title>
+      <link>http://localhost:1313/infra-guidance/vpn-android/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/infra-guidance/vpn-android/</guid>
+      <description>&lt;p&gt;이 문서는 Android에서 VIPLab VPN을 사용하는 방법을 안내합니다.&lt;/p&gt;&#xA;&lt;p&gt;PlayStore에서 Wireguard 앱을 설치한 다음, 설정 파일을 추가하여 VPN을 활성화하실 수 있습니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

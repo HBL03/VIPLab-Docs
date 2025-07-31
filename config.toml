@@ -1,0 +1,53 @@
+baseURL = "https://viplab-docs.github.io/"
+title = "VIPLab Docs"
+theme = "hugo-geekdoc"
+
+defaultContentLanguage = "ko"
+languageCode = "ko-KR"
+
+pluralizeListTitles = false
+
+# Geekdoc required configuration
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+
+# Required if you want to render robots.txt template
+enableRobotsTXT = true
+
+# Needed for mermaid shortcodes
+[markup]
+  [markup.goldmark.renderer]
+    # Needed for mermaid shortcode or when nesting shortcodes (e.g. img within
+    # columns or tabs)
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 9
+
+[taxonomies]
+   tag = "tags"
+
+[params]
+  # (Optional, default none) Set a subtitle used in the page header.
+  geekdocSubtitle = "Documentation of Visual Information Perception Laboratory"
+
+  # (Optional, default 6) Set how many table of contents levels to be showed on page.
+  # Use false to hide ToC, note that 0 will default to 6 (https://gohugo.io/functions/default/)
+  # You can also specify this parameter per page in front matter.
+  geekdocToC = 3
+
+  # (Optional, default static/brand.svg) Set the path to a logo for the Geekdoc
+  # relative to your 'static/' folder.
+  geekdocLogo = "VIPLab.png"
+
+  # (Optional, default false) Render menu from data file in 'data/menu/main.yaml'.
+  # See also https://geekdocs.de/usage/menus/#bundle-menu.
+  geekdocMenuBundle = true
+
+  geekdocDarkModeToggle = true
+  geekdocDarkModeDim = true
+  geekdocDarkModeCode = true
+
+[params.geekdocContentLicense]
+  name = "© 2025 Hyeonbeen Lee. All rights reserved."
