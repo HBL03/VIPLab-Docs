@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /tags/*
 
-Sitemap: http://localhost:1313/VIPLab-Docs/sitemap.xml
+Sitemap: http://192.168.125.201:1313/sitemap.xml

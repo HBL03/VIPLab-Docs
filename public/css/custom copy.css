@@ -85,45 +85,27 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    /* Header */
+    /* 동일하게 Light 모드 우선 적용 */
     --header-background: #00537f;
     --header-font-color: #ffffff;
-
-    /* Body */
     --body-background: #ffffff;
     --body-font-color: #084261;
-
-    /* Mark / Highlight */
     --mark-color: #00a3b9;
-
-    /* Button */
     --button-background: #00537f;
     --button-border-color: #084261;
-
-    /* Links */
     --link-color: #00a3b9;
     --link-color-visited: #00537f;
-
-    /* Code blocks */
     --code-background: #e6f2f7;
     --code-accent-color: #00a3b9;
     --code-accent-color-lite: #ffffff;
     --code-font-color: #084261;
-
-    /* Code-copy */
     --code-copy-background: #e6f2f7;
     --code-copy-font-color: #084261;
     --code-copy-border-color: #00537f;
     --code-copy-success-color: #00a3b9;
-
-    /* Accent panels */
     --accent-color: #e6f2f7;
     --accent-color-lite: rgb(247,251,255);
-
-    /* Control icons (search, toggle 등) */
     --control-icons: #00537f;
-
-    /* Footer */
     --footer-background: #00537f;
     --footer-font-color: #ffffff;
     --footer-link-color: #00a3b9;
@@ -182,46 +164,27 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-  /* 시스템 다크 모드 우선 적용 */
-    /* Header */
+    /* 시스템 다크 모드 우선 적용 */
     --header-background: #084261;
     --header-font-color: #e6f2f7;
-
-    /* Body */
     --body-background: #00537f;
     --body-font-color: #e6f2f7;
-
-    /* Mark / Highlight */
     --mark-color: #00a3b9;
-
-    /* Button */
     --button-background: #00a3b9;
     --button-border-color: #ffffff;
-
-    /* Links */
     --link-color: #00a3b9;
     --link-color-visited: #ffffff;
-
-    /* Code blocks */
     --code-background: rgb(0,91,142);
     --code-accent-color: #084261;
     --code-accent-color-lite: #084261;
     --code-font-color: #e6f2f7;
-
-    /* Code-copy */
     --code-copy-background: #00537f;
     --code-copy-font-color: #e6f2f7;
     --code-copy-border-color: #00a3b9;
     --code-copy-success-color: #ffffff;
-
-    /* Accent panels */
     --accent-color: #084261;
     --accent-color-lite: rgb(0,91,142);
-
-    /* Control icons */
     --control-icons: #e6f2f7;
-
-    /* Footer */
     --footer-background: #084261;
     --footer-font-color: #e6f2f7;
     --footer-link-color: #00a3b9;
