@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Study Record on VIPLab Docs</title>
-    <link>http://192.168.125.201:1313/study-record/</link>
+    <link>http://localhost:1313/VIPLab-Docs/study-record/</link>
     <description>Recent content in Study Record on VIPLab Docs</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <atom:link href="http://192.168.125.201:1313/study-record/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/VIPLab-Docs/study-record/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
